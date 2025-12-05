@@ -1,6 +1,6 @@
-# Contributing to The RuneScape Guide
+# Contributing to The RS Guide
 
-Welcome! This repository contains the MDX content for The RuneScape Guide website. This is a submodule that gets merged into the main Next.js [Fumadocs](https://fumadocs.dev/) application at build time.
+Welcome! This repository contains the MDX content for The RS Guide website. This is a submodule that gets merged into the main Next.js [Fumadocs](https://fumadocs.dev/) application at build time.
 
 ## How to Contribute
 
