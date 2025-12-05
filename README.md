@@ -2,6 +2,26 @@
 
 Welcome! This repository contains the MDX content for The RS Guide website. This is a submodule that gets merged into the main Next.js [Fumadocs](https://fumadocs.dev/) application at build time.
 
+## Table of Contents
+
+- [How to Contribute](#how-to-contribute)
+  - [Creating Issues](#creating-issues)
+  - [Opening Pull Requests](#opening-pull-requests)
+- [Understanding MDX](#understanding-mdx)
+  - [What is MDX?](#what-is-mdx)
+  - [MDX File Structure](#mdx-file-structure)
+  - [Frontmatter](#frontmatter)
+- [JSX Components in MDX](#jsx-components-in-mdx)
+  - [Why JSX?](#why-jsx)
+  - [Common Components](#common-components)
+- [Meta.json Files](#metajson-files)
+  - [What are Meta.json Files?](#what-are-metajson-files)
+  - [Meta.json Structure](#metajson-structure)
+  - [When to Create or Edit Meta.json Files](#when-to-create-or-edit-metajson-files)
+  - [Tips for Meta.json Files](#tips-for-metajson-files)
+- [File Structure](#file-structure)
+- [Need Help?](#need-help)
+
 ## How to Contribute
 
 We welcome contributions from everyone! There are two main ways to contribute:
