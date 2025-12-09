@@ -1,6 +1,8 @@
 # Contributing to The RS Guide
 
 Welcome! This repository contains the MDX content for The RS Guide website. This is a submodule that gets merged into the main Next.js [Fumadocs](https://fumadocs.dev/) application at build time.
+> [!NOTE]
+> The content here will update the BETA version of the site at https://beta.thersguide.com, not the primary site (https://thersguide.com) 
 
 ## Table of Contents
 
