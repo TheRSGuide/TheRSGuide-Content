@@ -58,19 +58,20 @@ If you'd like to make changes directly to the content, you can open a pull reque
    git add .
    git commit -m "A short summary of your changes"
    ```
-   > **Note:** Replace `"A short summary of your changes"` with a brief but specific explanation of what you changed (e.g., `"Fix typo in melee guide"` or `"Add new section on threshold abilities"`). Avoid using the placeholder message of `"add description of your changes"`.
+   > [!NOTE]
+   > Replace `"A short summary of your changes"` with a brief but specific explanation of what you changed (e.g., `"Fix typo in melee guide"` or `"Add new section on threshold abilities"`). Avoid using the placeholder message of `"add description of your changes"`.
 6. **Push to your fork**:
    ```bash
    git push origin your-branch-name
    ```
-   > **Note:** Replace `"your-branch-name"` with the name of the branch you chose in step 3.
+   > [!NOTE]
+   > Replace `"your-branch-name"` with the name of the branch you chose in step 3.
 7. **Open a Pull Request**:
    - Go to the repository on [GitHub](https://github.com/TheRSGuide/TheRSGuide-Content)
    - You should see a banner suggesting to create a PR from your recent push
    - Click "Compare & pull request"
    - Fill in the PR description explaining your changes
    - Click "Create pull request"
-
 
 ## Documentation
 
@@ -115,6 +116,7 @@ Each directory can contain:
 
 If you have questions or need clarification:
 
+- Join our [Discord server](https://discord.gg/thersguy) to ask questions and get help
 - Open an issue on GitHub with your question
 - Check existing issues and pull requests for examples
 - Ask in your pull request description - we're happy to help!
