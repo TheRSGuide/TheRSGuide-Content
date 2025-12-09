@@ -51,13 +51,16 @@ If you'd like to make changes directly to the content, you can open a pull reque
    ```bash
    git checkout -b your-branch-name
    ```
-   > **Note:** Replace `"your-branch-name"` with a brief description of what you will be contributing (e.g., `"fix-typeo-in-guide"` or `"fix-directions-in-guide"`). Avoid using the placeholder name `"your-branch-name"`.
+
+   > [!NOTE]
+   > Replace `"your-branch-name"` with a brief description of what you will be contributing (e.g., `"fix-typeo-in-guide"` or `"fix-directions-in-guide"`). Avoid using the placeholder name `"your-branch-name"`.
 4. **Make your changes** to the MDX files (see the [Documentation](#documentation) section for detailed guides)
 5. **Commit your changes**:
    ```bash
    git add .
    git commit -m "A short summary of your changes"
    ```
+
    > [!NOTE]
    > Replace `"A short summary of your changes"` with a brief but specific explanation of what you changed (e.g., `"Fix typo in melee guide"` or `"Add new section on threshold abilities"`). Avoid using the placeholder message of `"add description of your changes"`.
 6. **Push to your fork**:
