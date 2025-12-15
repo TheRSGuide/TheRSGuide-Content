@@ -3,13 +3,53 @@ title: Tick-System
 description: Understanding RuneScape's tick system
 ---
 
-Tick-System
+How does the world work? The game runs on what we call
+**ticks**, or **cycles**. Every **0.6** seconds, information is sent
+between you and RuneScape's servers, keeping your character up to
+date on what you're doing.
 
-## Tick-System?
+{/* TODO: Figure out how the Metronome will work on this */}
+{/* ![Image of Damage Meter Showing Ticks](https://www.thersguide.com/videos/ticksystem.gif) */}
 
-Learn how RuneScape's tick system affects gameplay and timing.
+<img
+  src="https://www.thersguide.com/videos/ticksystem.gif"
+  style={{
+    height: "20vw",
+    width: "35vw",
+    minHeight: "200px",
+    minWidth: "350px",
+  }}
+/>
+{/* TODO: (do we keep this->)Damage Ticks & Ability Cooldowns work off of the tick system */}
 
-<Cards>
-  <Card title="Learn more about RuneScape" href="https://runescape.wiki" />
-  <Card title="Official RuneScape Website" href="https://www.runescape.com" />
-</Cards>
+This is the core of understanding RuneScape, from your early levels all
+the way to the end game. Whether you're catching a fish, or trying to
+dodge an attack at a boss you'll be constantly interacting with these
+**0.6** second intervals.
+
+When using abilities it's worth getting used to the **Action Bar**.
+This has a global cooldown of **1.8s**. This means you can conventionally
+cast a new ability every **1.8s**, and abilities will spin around during this time.
+
+<SplitContent>
+  <SplitItem width={80}>
+    {/* GCD does not have the hover from before */}
+    Because of the **0.6s** tick system, this means that a GCD consists of **3 ticks**.
+    If you are manually using abilities, aim to press your next ability in the **green**
+    section.
+  </SplitItem>
+  <SplitItem width={20}>
+    <img
+      src="https://www.thersguide.com/1757822048675-gcd.png"
+      style={{ height: "3vw", width: "3vw", minHeight: "25px", minWidth: "25px" }}
+      alt="Global Cooldown Icon"
+    />
+  </SplitItem>
+</SplitContent>
+In addition, some players find there is significant delay in their inputs. While
+this is not directly related to the **Tick system**, we recommend the following settings
+to ensure smooth, responsive gameplay.
+
+- Play on a server that is geographically close to your location
+- When performing high input activities such as Combat, play on a
+  world with **under 200** players.
