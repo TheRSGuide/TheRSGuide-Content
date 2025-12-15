@@ -3,13 +3,233 @@ title: Combat Basics
 description: Fundamentals of RuneScape combat
 ---
 
-Combat Basics
+## Combat Abilities
 
-## Combat Basics?
+RuneScape uses an ability system where you can cast abilities to damage
+monsters, move around faster, or defence from incoming attacks. It can
+feel daunting looking at your available abilities, but each one has a
+tooltip that tells you what it does and how it can be used. The tooltip
+can be viewed by hovering over the ability within the respective ability
+book.
 
-Learn the basic principles of combat in RuneScape.
+**Hint:** If you are using the **default interface** mentioned earlier
+in the guide, many of your ability books will be found in the top
+left of your screen. They can be dragged onto your action bars from there.
 
-<Cards>
-  <Card title="Learn more about RuneScape" href="https://runescape.wiki" />
-  <Card title="Official RuneScape Website" href="https://www.runescape.com" />
-</Cards>
+Let's cover this in detail.
+
+{/* TODO: vvvv ADD COMPONENT BACK TO MDX COMPONENT FROM GRIFFINS CODE IN TRG-3.5 vvvv */}
+{/* <InteractiveMapLegend
+  baseImage="https://www.thersguide.com/compressed/abilities/wm1.jpg"
+  items={[
+    {
+      id: "type",
+      name: "Type",
+      description: "Displays the name and type of ability",
+      hoverImage: "https://www.thersguide.com/compressed/abilities/wm2.jpg",
+    },
+    {
+      id: "cooldown",
+      name: "Cooldown",
+      description: "Displays the ability's cooldown",
+      hoverImage: "https://www.thersguide.com/compressed/abilities/wm3.jpg",
+    },
+    {
+      id: "target",
+      name: "Target",
+      description: "The type of targeting the ability uses",
+      hoverImage: "https://www.thersguide.com/compressed/abilities/wm4.jpg",
+    },
+    {
+      id: "tooltip",
+      name: "Description",
+      description: "Explanation of what the ability does",
+      hoverImage: "https://www.thersguide.com/compressed/abilities/wm5.jpg",
+    },
+    {
+      id: "requirements",
+      name: "Requirements",
+      description: "Requirements to use the ability",
+      hoverImage: "https://www.thersguide.com/compressed/abilities/wm6.jpg",
+    },
+  ]}
+/> */}
+
+---
+
+## Ability Type
+
+RuneScape has five types of abilities.
+
+<SplitContent>
+  <SplitItem width={50}>
+    **Basic Ability:** Basic abilities generate adrenaline (base 8%)
+    and will cast small to moderate damage. They can have unique
+    effects, but are primarly used as a means of gaining adrenaline.
+
+    They will be a large part of your rotation, so learning which basics
+    are good to use in certain scenarios is very important.
+
+  </SplitItem>
+  <SplitItem width={50}>
+    <img src="https://www.thersguide.com/compressed/abilities/wm2.jpg"
+      alt="Wild Magic Ability Information" 
+      style={{ 
+        width: "100%", 
+        height: "auto",
+        maxWidth: "100%"
+        }}
+    />
+
+  </SplitItem>
+</SplitContent>
+
+**Threshold Ability:** Threshold abilities are your next step up.
+They will deal a moderate to large amount of damage. Every threshold
+ability costs 15% adrenaline to use, but can only be cast when you have
+over 50% adrenaline. <br />
+For example, if you have 40% adrenaline, you cannot cast a threshold. If
+you have 60% adrenaline, you can, and your adrenaline will go down to
+45% when cast.
+
+**Ultimate Ability:** Ultimate abilities are the most powerful
+abilities and cost 100% adrenaline to use. There are different types of
+ultimates, but the two main types are damage boosting ultimates and
+damage dealing ultimates.
+
+**Special Ability:** Finally, we have the special ability. This
+classification is only given to weapon special attacks so its effect
+will change based on your weapon.<br />
+The special ability could be completely irrelevant, or it could be the
+backbone of your rotation. Special attacks only appear on mid to high
+tier weapons above level 60.
+
+**Ability:** This classification is given to abilities that do not
+fall into one of the other 4 classes. Movement abilities and most
+Necromancy abilities fall into this class.
+
+---
+
+## Cooldown
+
+<SplitContent>
+  <SplitItem width={50}>
+    A cooldown is the period of time an ability is unusable after it has
+    been used and it can massively vary in length.
+
+    Remember that RuneScape runs on a 0.6s [tick system](/getting-started/). This means
+    that all cooldowns will be in increments of **0.6s**, for example, **20.4s**.
+  </SplitItem>
+
+  <SplitItem width={50}>
+    <img
+      src="https://www.thersguide.com/compressed/abilities/wm3.jpg"
+      alt="Wild Magic Cooldown Information"
+      style={{ 
+        width: "100%", 
+        height: "auto",
+        maxWidth: "100%"
+        }}
+    />
+  </SplitItem>
+</SplitContent>
+
+---
+
+## Target
+
+<SplitContent>
+  <SplitItem>
+    Below the cooldown timer is another type of classification which
+    tells you how the ability targets foes.
+
+    **Self-target:** These abilities are cast on your player.
+    These include movement abilities, damage boosting ultimates, and
+    some defensive abilities. Self-target abilities don't require a
+    target and only affect your character.
+  </SplitItem>
+
+  <SplitItem>
+      <img
+      src="https://www.thersguide.com/compressed/abilities/wm4.jpg"
+      alt="Wild Magic Target Information"
+      style={{ 
+        width: "100%", 
+        height: "auto",
+        maxWidth: "100%"
+        }}
+    />
+  </SplitItem>
+</SplitContent>
+
+**Single-target:** These abilities are, as the name implies,
+cast on a single target and only affect that target.
+
+**Area-target:** These abilities affect a certain
+**area**, generally around the player or on a specified
+location.
+
+**Multi-target:** These abilities work a bit differently than
+area-target abilities. They are cast on a target and spread to others
+targets. They are **not bound** to an area in the same way
+area-target abilities are.
+
+---
+
+## Description
+
+<SplitContent>
+  <SplitItem>
+    The rest of the tooltip provides specific information about the
+    ability. Every tooltip will have a short description, followed by
+    the damage range of the ability, if applicable. This will consist of
+    2 sets of numbers, actual damage numbers, and % numbers. The actual
+    damage numbers will only show when you have a weapon of that style
+    equipped.
+  </SplitItem>
+
+  <SplitItem>
+    <img
+      src="https://www.thersguide.com/compressed/abilities/wm5.jpg"
+      alt="Wild Magic Tooltip Information"
+      style={{ 
+        width: "100%", 
+        height: "auto",
+        maxWidth: "100%"
+        }}
+    />
+  </SplitItem>
+</SplitContent>
+
+The actual damage numbers will update in real time, but do not include
+most buffs, while the % values will always remain the same. These can be
+are a good source of damage.
+
+Under the damage information, the tooltip will include all other
+relevant information such as extra effects, number of hits, and
+adrenaline cost.
+
+---
+
+## Requirements
+
+<SplitContent>
+  <SplitItem>
+    At the very bottom of the tooltip are any requirements to cast the
+    ability. This is generally a level requirement and an adrenaline
+    requirement, but can include items or effects.
+  </SplitItem>
+  <SplitItem>
+    <img
+      src="https://www.thersguide.com/compressed/abilities/wm6.jpg"
+      alt="Wild Magic Requirements Information"
+      style={{ 
+        width: "100%", 
+        height: "auto",
+        maxWidth: "100%"
+        }}
+    />
+  </SplitItem>
+</SplitContent>
+
+---
